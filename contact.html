@@ -1,0 +1,61 @@
+---
+layout: page
+
+---
+
+<body>
+    <h1> CONTACT ME</h1>
+    <form action="https://formspree.io/myynpdad" method="POST">
+        <b>Name</b><input type="text" name="sendername"  required>
+        <b>Email</b><input type="email" name="email" autocomplete="off" required>
+        <b>Subject</b><input type="text" name="subject" required>
+           <label><b>Message</b></label><br>
+           <textarea id="myText" rows="4" cols="50" name="message"> Leave your message here</textarea><br><br>
+           <input type="Submit" value="Send message">
+</form>
+</body>
+<style>
+    body{
+        text-align: center;
+    }
+
+    form{
+        margin: 20px auto;
+        width: 320px;
+        color: black;
+    
+      }
+    
+      input{
+        padding: 10px;
+        font-size: inherit;
+      }
+      input[type="text"]{
+        display: block;
+        margin-bottom: 25px;
+        width: 100%;
+        border: 2px solid black;
+      }
+    
+      input[type="textarea"]{
+        display: block;
+        margin-bottom: 25px;
+        width: 100%;
+        border: 2px solid black;
+      }
+    
+      input[type="email"]{
+        display: block;
+        margin-bottom: 25px;
+        width: 100%;
+        border: 2px solid black;
+      }
+    
+      input[type="submit"]{
+        width: 344px;
+        height: 45px;
+        border: none;
+        background: black;
+        color: white;
+      }
+</style>
