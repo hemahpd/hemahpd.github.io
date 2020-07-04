@@ -2,7 +2,7 @@
 layout: postdetail
 title: "Blog Zero - Making of this website"
 author: "Hema"
-categories: general
+categories: General
 date: July 4, 2020
 background: /images/blogzero.jpg
 
