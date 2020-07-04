@@ -4,7 +4,7 @@ title: "Blog Zero - Making of this website"
 author: "Hema"
 categories: general
 date: July 4, 2020
-background: /images/hema.jpg
+background: /images/blogzero.jpg
 
 ---
 <h2>MAKING OF THIS WEBSITE</h2>
