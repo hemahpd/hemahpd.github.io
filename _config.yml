@@ -2,3 +2,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Hema Priya Dharshini" # the name of your site, e.g. ACME Corp.
 formspree_email: hemahpd07@gmail.com
+permalink: /:categories/:title/
+plugins: [jekyll-paginate]
+paginate: 5
+paginate_path: "/postindex/page:num/"

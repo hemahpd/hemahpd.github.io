@@ -1,8 +1,10 @@
 ---
 layout: postdetail
-title: "Second post"
+title: "fourth post"
 author: "Hema"
 categories: music
 
 ---
-music is life
+
+
+music
