@@ -7,7 +7,7 @@ date: July 4, 2020
 background: /images/blogzero.jpg
 
 ---
-<h2>MAKING OF THIS WEBSITE</h2>
+<h4>MAKING OF THIS WEBSITE</h4>
 <p>Creating this website was a journey of trial and error, and experiential guessing. There are so many ways to go about creating a website now and its very easy to get lost in trying to pick the BEST option. As a beginner, I wanted to pick a platform or technology that I could get up and running relatively quickly, so I chose Jekyll, a static website generator for now as it had the possibility of foregoing a database,saving time and effort on the set up and configuration.</p>
 
 <p>My previous website was setup with a Django backend but I didn't host it as I couldn't get the best out of it and was about to learn more about it. You can find the code for that <a href="https://github.com/hemahpd/personal-website-django">here</a>.</p>

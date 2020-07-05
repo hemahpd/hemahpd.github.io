@@ -17,12 +17,12 @@ title: Hema's blog
 <div class="card-deck">
   {% for post in site.posts%}
   <div class="col-md-4">
-  <div class="card">
-    <img class="card-img-top" src="{{post.background}}">
+  <div class="card" style="height: 31rem;">
+    <img class="card-img-top" src="{{post.background}}" style="height: 15rem;">
     <div class="card-body">
       <h5 class="card-title"><strong>{{post.title}}</strong></h5>
       <p class="card-text"><small class="text-muted">Category:&nbsp;{{post.categories}}</small></p>
-      <p class="card-text">{{post.excerpt|slice: 0,200}}...</p>
+      <p class="card-text">{{post.excerpt|slice: 0,150}}...</p>
       <a href="{{post.url}}" class="btn btn-primary stretched-link">Read More</a>
     </div>
   </div>
