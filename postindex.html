@@ -18,8 +18,8 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
 <div class="card-deck">
   {% for post in site.posts%}
   <div class="col-md-4">
-  <div class="card" style="height: 31rem;">
-    <img class="card-img-top" src="{{post.background}}" style="height: 15rem;">
+  <div class="card">
+    <img class="card-img-top" src="{{post.background}}">
     <div class="card-body">
       <h5 class="card-title"><strong>{{post.title}}</strong></h5>
       <p class="card-text"><small class="text-muted">Category:&nbsp;{{post.categories}}</small></p>
