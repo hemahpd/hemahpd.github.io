@@ -6,3 +6,4 @@ permalink: /:categories/:title/
 plugins: [jekyll-paginate]
 paginate: 5
 paginate_path: "/postindex/page:num/"
+google_analytics: UA-172332611-1
